@@ -1,8 +1,8 @@
 # Site settings
-title: About Devs
+title: aboutDevs
 header-img: img/home-bg.jpg
 email: santosjr87@gmail.com
-description: "Compartilhando experiencias."
+description: "Compartilhando conhecimento e experiencias."
 baseurl: "/aboutdevs"
 url: "http://aboutdevs.com"
 twitter_username: anchiietajr
