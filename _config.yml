@@ -1,0 +1,16 @@
+# Site settings
+title: About Devs
+header-img: img/home-bg.jpg
+email: santosjr87@gmail.com
+description: "Compartilhando experiencias."
+baseurl: "/aboutdevs"
+url: "http://aboutdevs.com"
+twitter_username: anchiietajr
+github_username:  anchietajunior
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
