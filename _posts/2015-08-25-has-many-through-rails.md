@@ -2,7 +2,7 @@
 layout: post
 title:  "Associações Many-to-Many utilizando has_many e through."
 date:   2015-08-25 20:40:36
-categories: jekyll update
+categories: rails
 ---
 
 Utilizar uma associação **many-to-many** em uma aplicação Rails com a ideia de ter uma lista de checkboxes gerada através de um dos Models, dando a opção de selecionar os itens desejados é o objetivo desse Post.
