@@ -92,7 +92,7 @@ Também adicionei isso ao `config/routes.rb` pra manter nossa view index de prod
 root 'products#index'
 {% endhighlight %}
 
-
+Concluindo...
 
 
 
