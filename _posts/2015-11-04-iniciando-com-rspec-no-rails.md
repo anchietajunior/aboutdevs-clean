@@ -6,7 +6,7 @@ categories: rails
 author: "Anchieta Jr."
 ---
 
-Dessa vez vou abordar um tema legal pra quem é iniciante no Rails ou em testes, praticando TDD com RSpec. *_*
+Dessa vez vou abordar um tema legal pra quem é iniciante no Rails ou em testes, TDD e RSpec.
 
 As vezes é complicado entender pra que serve e o motivo de se manter uma rotina de testes em uma aplicação, principalmente quando você testa na tela e vê que tudo está funcionando como você espera.
 
