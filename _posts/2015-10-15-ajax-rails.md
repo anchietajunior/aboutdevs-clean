@@ -46,7 +46,51 @@ Criando a nossa aplicação e configurando, vamos pro terminal:
 
 `rake db:create`
 
+Em seguida, vamos gerar dois scaffolds, um pra categoria e outro pra produto.
 
+`rails generate scaffold Category name:string`
+
+`rails generate scaffold Product name:string color:string category:references`
+
+`rake db:migrate`
+
+Adicionar nosso relacionamento aos models: 
+
+`app/models/product.rb`...
+
+{% highlight ruby %}
+class Product < ActiveRecord::Base
+  belongs_to :category
+end
+{% endhighlight %}
+
+... e `app/models/category.rb`.
+
+{% highlight ruby %}
+class Category < ActiveRecord::Base
+  has_many :products
+end
+{% endhighlight %}
+
+Adicionei isso ao `app/views/layouts/application.html.erb` só pra facilitar a navegação entre Produtos e Categorias.
+
+{% highlight html %}
+<style type="text/css" media="screen">
+#menu{
+	margin-bottom: 40px;
+}
+</style>
+<div id="menu">
+	<%= link_to "Produtos", products_path %>
+	<%= link_to "Categorias", categories_path %>
+</div>
+{% endhighlight %}
+
+Também adicionei isso ao `config/routes.rb` pra manter nossa view index de produtos como nossa página inicial.
+
+{% highlight ruby %}
+root 'products#index'
+{% endhighlight %}
 
 
 
