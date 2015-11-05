@@ -7,6 +7,8 @@ baseurl: "/aboutdevs-clean"
 url: "http://aboutdevs.com"
 twitter_username: anchiietajr
 github_username:  anchietajunior
+github_username:  anchietajunior
+facebook_username: anchieta.junior
 
 # Build settings
 markdown: kramdown
